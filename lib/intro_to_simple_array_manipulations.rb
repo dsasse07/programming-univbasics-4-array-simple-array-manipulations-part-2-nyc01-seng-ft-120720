@@ -13,7 +13,7 @@ def using_insert (array1, element)
   puts array1
   puts element
   puts array1.insert(4,element)
-  array1.insert (4, element)
+  array1.insert(4, element)
 end
 
 def using_uniq (array1)
