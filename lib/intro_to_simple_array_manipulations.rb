@@ -6,6 +6,7 @@ def using_concat (array1, array2)
   puts array2
   puts array1.concat(array2)
   array1.concat(array2)
+  binding.pry
 end
 
 def using_insert (array1, element)
